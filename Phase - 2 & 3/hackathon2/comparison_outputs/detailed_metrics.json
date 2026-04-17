@@ -1,0 +1,123 @@
+{
+  "similar_model": {
+    "model_type": "Similar (RandomForest + KMeans)",
+    "urgency_classification_accuracy": 0.8842975206611571,
+    "urgency_classification_f1": 0.8845851943524937,
+    "track_classification_accuracy": 0.731404958677686,
+    "track_classification_f1": 0.6877532346897912,
+    "undertrial_detection_recall": 1.0,
+    "urgency_classification_report": {
+      "High": {
+        "precision": 0.9428571428571428,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9295774647887324,
+        "support": 108.0
+      },
+      "Low": {
+        "precision": 0.8271604938271605,
+        "recall": 0.8933333333333333,
+        "f1-score": 0.8589743589743589,
+        "support": 75.0
+      },
+      "Medium": {
+        "precision": 0.8571428571428571,
+        "recall": 0.8135593220338984,
+        "f1-score": 0.8347826086956521,
+        "support": 59.0
+      },
+      "accuracy": 0.8842975206611571,
+      "macro avg": {
+        "precision": 0.8757201646090534,
+        "recall": 0.8745197740112994,
+        "f1-score": 0.8744448108195811,
+        "support": 242.0
+      },
+      "weighted avg": {
+        "precision": 0.8861034588307316,
+        "recall": 0.8842975206611571,
+        "f1-score": 0.8845851943524937,
+        "support": 242.0
+      }
+    }
+  },
+  "improved_model": {
+    "model_type": "Improved (XGBoost/GradientBoosting Ensemble + Hierarchical Clustering)",
+    "urgency_classification_accuracy": 0.8884297520661157,
+    "urgency_classification_f1": 0.8898469571559243,
+    "urgency_cv_mean": 0.868691145781782,
+    "urgency_cv_std": 0.01428706877643755,
+    "track_classification_accuracy": 0.7231404958677686,
+    "track_classification_f1": 0.7038562819240713,
+    "undertrial_detection_recall": 1.0,
+    "urgency_classification_report": {
+      "High": {
+        "precision": 0.9803921568627451,
+        "recall": 0.9259259259259259,
+        "f1-score": 0.9523809523809523,
+        "support": 108.0
+      },
+      "Low": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.8496732026143791,
+        "support": 75.0
+      },
+      "Medium": {
+        "precision": 0.8064516129032258,
+        "recall": 0.847457627118644,
+        "f1-score": 0.8264462809917356,
+        "support": 59.0
+      },
+      "accuracy": 0.8884297520661157,
+      "macro avg": {
+        "precision": 0.873392367699768,
+        "recall": 0.8800167399037456,
+        "f1-score": 0.8761668119956889,
+        "support": 242.0
+      },
+      "weighted avg": {
+        "precision": 0.8924090830680445,
+        "recall": 0.8884297520661157,
+        "f1-score": 0.8898469571559243,
+        "support": 242.0
+      }
+    }
+  },
+  "comparison_summary": {
+    "Metric": [
+      "urgency_classification_accuracy",
+      "urgency_classification_f1",
+      "track_classification_accuracy",
+      "track_classification_f1",
+      "undertrial_detection_recall"
+    ],
+    "Similar Model": [
+      "0.8843",
+      "0.8846",
+      "0.7314",
+      "0.6878",
+      "1.0000"
+    ],
+    "Improved Model": [
+      "0.8884",
+      "0.8898",
+      "0.7231",
+      "0.7039",
+      "1.0000"
+    ],
+    "Improvement": [
+      "+0.47%",
+      "+0.59%",
+      "-1.13%",
+      "+2.34%",
+      "+0.00%"
+    ],
+    "Winner": [
+      "IMPROVED \u2713",
+      "IMPROVED \u2713",
+      "SIMILAR",
+      "IMPROVED \u2713",
+      "TIE"
+    ]
+  }
+}

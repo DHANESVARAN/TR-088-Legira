@@ -1,0 +1,6 @@
+Metric,Similar Model,Improved Model,Improvement,Winner
+urgency_classification_accuracy,0.8843,0.8884,+0.47%,IMPROVED ✓
+urgency_classification_f1,0.8846,0.8898,+0.59%,IMPROVED ✓
+track_classification_accuracy,0.7314,0.7231,-1.13%,SIMILAR
+track_classification_f1,0.6878,0.7039,+2.34%,IMPROVED ✓
+undertrial_detection_recall,1.0000,1.0000,+0.00%,TIE

@@ -1,0 +1,41 @@
+{
+  "model_type": "Similar (RandomForest + KMeans)",
+  "urgency_classification_accuracy": 0.8842975206611571,
+  "urgency_classification_f1": 0.8845851943524937,
+  "track_classification_accuracy": 0.731404958677686,
+  "track_classification_f1": 0.6877532346897912,
+  "undertrial_detection_recall": 1.0,
+  "urgency_classification_report": {
+    "High": {
+      "precision": 0.9428571428571428,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9295774647887324,
+      "support": 108.0
+    },
+    "Low": {
+      "precision": 0.8271604938271605,
+      "recall": 0.8933333333333333,
+      "f1-score": 0.8589743589743589,
+      "support": 75.0
+    },
+    "Medium": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8135593220338984,
+      "f1-score": 0.8347826086956521,
+      "support": 59.0
+    },
+    "accuracy": 0.8842975206611571,
+    "macro avg": {
+      "precision": 0.8757201646090534,
+      "recall": 0.8745197740112994,
+      "f1-score": 0.8744448108195811,
+      "support": 242.0
+    },
+    "weighted avg": {
+      "precision": 0.8861034588307316,
+      "recall": 0.8842975206611571,
+      "f1-score": 0.8845851943524937,
+      "support": 242.0
+    }
+  }
+}

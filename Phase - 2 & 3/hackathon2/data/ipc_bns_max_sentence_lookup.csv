@@ -1,0 +1,28 @@
+section,law_code,description,punishment_type,max_sentence_years,max_sentence_years_effective,max_sentence_days,bailability,is_non_finite_sentence
+379,IPC,Theft,finite,3.0,3.0,1095.0,bailable,False
+392,IPC,Robbery,finite,10.0,10.0,3650.0,non-bailable,False
+420,IPC,Cheating and dishonestly inducing delivery of property,finite,7.0,7.0,2555.0,non-bailable,False
+447,IPC,Criminal trespass,finite,0.25,0.25,91.0,bailable,False
+498,IPC,Enticing or taking away/detaining with criminal intent,finite,2.0,2.0,730.0,non-bailable,False
+302,IPC,Murder,death,,,,non-bailable,True
+304,IPC,Culpable homicide not amounting to murder,finite,10.0,10.0,3650.0,non-bailable,False
+307,IPC,Attempt to murder,finite,10.0,10.0,3650.0,non-bailable,False
+326,IPC,Voluntarily causing grievous hurt by dangerous weapons,finite,10.0,10.0,3650.0,non-bailable,False
+354,IPC,Assault or criminal force to woman with intent to outrage modesty,finite,5.0,5.0,1825.0,non-bailable,False
+363,IPC,Kidnapping,finite,7.0,7.0,2555.0,non-bailable,False
+376,IPC,Rape,life,,25.0,9125.0,non-bailable,True
+406,IPC,Criminal breach of trust,finite,3.0,3.0,1095.0,bailable,False
+409,IPC,Criminal breach of trust by public servant/banker,life,,25.0,9125.0,non-bailable,True
+467,IPC,Forgery of valuable security,life,,25.0,9125.0,non-bailable,True
+468,IPC,Forgery for purpose of cheating,finite,7.0,7.0,2555.0,non-bailable,False
+471,IPC,Using forged document as genuine,finite,7.0,7.0,2555.0,non-bailable,False
+506,IPC,Criminal intimidation,finite,2.0,2.0,730.0,bailable,False
+509,IPC,Word/gesture intended to insult modesty of a woman,finite,3.0,3.0,1095.0,bailable,False
+34,IPC,Acts done by several persons in furtherance of common intention,finite,0.0,0.0,0.0,contextual,False
+120B,IPC,Criminal conspiracy,finite,6.0,6.0,2190.0,contextual,False
+303,BNS,Theft (BNS),finite,3.0,3.0,1095.0,bailable,False
+309,BNS,Robbery (BNS),finite,10.0,10.0,3650.0,non-bailable,False
+316,BNS,Cheating (BNS),finite,7.0,7.0,2555.0,non-bailable,False
+329,BNS,Criminal trespass (BNS),finite,0.25,0.25,91.0,bailable,False
+340,BNS,Forgery and related offenses (BNS),finite,7.0,7.0,2555.0,non-bailable,False
+347,BNS,Criminal intimidation (BNS),finite,2.0,2.0,730.0,bailable,False

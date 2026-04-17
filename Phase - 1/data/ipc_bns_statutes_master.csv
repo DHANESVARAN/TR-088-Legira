@@ -1,0 +1,28 @@
+section,law_code,description,punishment_type,max_sentence_years,bailability
+379,IPC,Theft,finite,3,bailable
+392,IPC,Robbery,finite,10,non-bailable
+420,IPC,Cheating and dishonestly inducing delivery of property,finite,7,non-bailable
+447,IPC,Criminal trespass,finite,0.25,bailable
+498,IPC,Enticing or taking away/detaining with criminal intent,finite,2,non-bailable
+302,IPC,Murder,death,,non-bailable
+304,IPC,Culpable homicide not amounting to murder,finite,10,non-bailable
+307,IPC,Attempt to murder,finite,10,non-bailable
+326,IPC,Voluntarily causing grievous hurt by dangerous weapons,finite,10,non-bailable
+354,IPC,Assault or criminal force to woman with intent to outrage modesty,finite,5,non-bailable
+363,IPC,Kidnapping,finite,7,non-bailable
+376,IPC,Rape,life,,non-bailable
+406,IPC,Criminal breach of trust,finite,3,bailable
+409,IPC,Criminal breach of trust by public servant/banker,life,,non-bailable
+467,IPC,Forgery of valuable security,life,,non-bailable
+468,IPC,Forgery for purpose of cheating,finite,7,non-bailable
+471,IPC,Using forged document as genuine,finite,7,non-bailable
+506,IPC,Criminal intimidation,finite,2,bailable
+509,IPC,Word/gesture intended to insult modesty of a woman,finite,3,bailable
+34,IPC,Acts done by several persons in furtherance of common intention,finite,0,contextual
+120B,IPC,Criminal conspiracy,finite,6,contextual
+303,BNS,Theft (BNS),finite,3,bailable
+309,BNS,Robbery (BNS),finite,10,non-bailable
+316,BNS,Cheating (BNS),finite,7,non-bailable
+329,BNS,Criminal trespass (BNS),finite,0.25,bailable
+340,BNS,Forgery and related offenses (BNS),finite,7,non-bailable
+347,BNS,Criminal intimidation (BNS),finite,2,bailable
